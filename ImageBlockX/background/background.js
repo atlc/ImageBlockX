@@ -26,7 +26,7 @@ const checkStoredSettings = storedSettings => {
     /** @type {ImageBlockXState} */
     const defaultState = {
         pattern: "<all_urls>",
-        isBlocking: false,
+        isBlocking: true,
         isReloadingOnToggle: false,
 
         ui: {
